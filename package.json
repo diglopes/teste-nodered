@@ -2,7 +2,10 @@
     "name": "Teste",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-moment": "~4.0.0",
+        "@digitaloak/node-red-contrib-digitaloak-postgresql": "0.3.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",

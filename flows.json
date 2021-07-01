@@ -1,1 +1,54 @@
-[{"id":"42076f33.fcdac","type":"tab","label":"Flow 1","disabled":false,"info":""}]
+[
+    {
+        "id": "39e68107.bb5c9e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "dc137ed3.8a869",
+        "type": "inject",
+        "z": "39e68107.bb5c9e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 240,
+        "wires": [
+            [
+                "a3bb83d2.a81b4"
+            ]
+        ]
+    },
+    {
+        "id": "a3bb83d2.a81b4",
+        "type": "debug",
+        "z": "39e68107.bb5c9e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 240,
+        "wires": []
+    }
+]
